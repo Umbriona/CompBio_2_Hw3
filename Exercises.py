@@ -46,7 +46,7 @@ def Recombination(sample,sampleSize):
         randi = rand.randint(0, len(sample[:,0])-1)
         tempBol1 = sample[randi, 1] == 0 or sample[randi, 1] == sampleSize
         tempBol2 = sample[randi, 0] == 0 or sample[randi, 0] == sampleSize
-    individual = sample[:,randi]
+    individual = sample[randi,:]
     temp1 = np.transpose([0,individual[1]])
     temp0 = np.transpose([individual[0],0])
     sample = np.transpose(sample)
@@ -114,6 +114,7 @@ def Question1(populationSize):
     plt.axis([0, 1, 0, 175])
     plt.ylabel('X^2')
     plt.xlabel('x')
+    plt.title('Chi^2 distribution with rejection lines')
     plt.legend(['X^2','Chi 95: 3 degree of freedom ','Chi 99: 3 degree of freedom '])
     plt.show()
 

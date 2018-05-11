@@ -17,8 +17,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="59" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+            <state relative-caret-position="629">
+              <caret line="82" column="37" lean-forward="false" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="37" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -29,9 +29,11 @@
       <file leaf-file-name="Exercises.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exercises.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="561">
+              <caret line="48" column="31" lean-forward="false" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,8 +41,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../HW2/Code/CompBio-Hw2/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="49" column="62" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="62" />
+            <state relative-caret-position="816">
+              <caret line="48" column="4" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="35" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -221,14 +223,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercises.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../HW2/Code/CompBio-Hw2/Process.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -239,8 +233,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../HW2/Code/CompBio-Hw2/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="49" column="62" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="62" />
+        <state relative-caret-position="816">
+          <caret line="48" column="4" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercises.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="48" column="31" lean-forward="false" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -249,8 +253,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="59" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+        <state relative-caret-position="629">
+          <caret line="82" column="37" lean-forward="false" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="37" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
