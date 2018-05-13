@@ -51,19 +51,20 @@ def main():
     plt.show()
 
     R = np.array([0,10**-5,10**-4,10**-3,10**-2,0.1,1,10])
-    n = np.array([2,4,8,16])
+    n = np.array([2])
     R_a = np.linspace(0,10,100)
     analyt = lambda x: (x+18)/(x**2+13*x+18)
-    numberOfRepeats = 10000
-    fig, axes = plt.subplots(nrows=2, ncols=2)
+    numberOfRepeats = 100000
+    fig, axes = plt.subplots(nrows=2, ncols=1)
     ax = axes.flatten()
     for k in range(len(n)):
         Pab = []
-        for j in R:
+        Pab_c = []
+        for j in range(len(R)):
             listTimeA = []
             listTimeB = []
             for i in range(numberOfRepeats):
-                timeA, timeB = ex.Question2(n[k], j)
+                timeA, timeB = ex.Question2(n[k], R[j])
                 listTimeA.append(timeA)
                 listTimeB.append(timeB)
             listTimeA = np.asarray(listTimeA)
@@ -74,7 +75,9 @@ def main():
             varTimeA = np.var(listTimeA)
             varTimeB = np.var(listTimeB)
             Pab.append((meanTimeAB-meanTimeA*meanTimeB)/(varTimeA*varTimeB))
-
+            Pab_c.append(np.cov([listTimeA,listTimeB]))
+        norm = np.amax(Pab)
+        Pab = Pab/norm
         ax[k].set_xscale('log')
         ax[k].plot(R,Pab,'*',label='sim')
         ax[k].plot(R, analyt(R),label='analytic')
